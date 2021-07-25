@@ -161,6 +161,9 @@
         .main-menu {
             padding: 20px 0;
         }
+        .home-category-item {
+            padding-bottom: 15px;
+        }
         .home-category-contact {
             display: none;
         }
