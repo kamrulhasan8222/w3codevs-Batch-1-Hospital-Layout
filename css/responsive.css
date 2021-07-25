@@ -1,0 +1,365 @@
+    /* Responsive Css */
+    /* Extra Large Device Above 1200px */
+    
+    @media (min-width:1200px) {}
+    /* Large Device 992px -1199px */
+    
+    @media (min-width:992px) and (max-width:1199px) {
+        .home-category-contact {
+            font-size: 14px;
+            padding-left: 10px;
+        }
+        .features-list ul li {
+            font-size: 14px;
+        }
+        .image-link {
+            width: 188px;
+        }
+        .contact-address {
+            font-size: 15px;
+        }
+        .contact-address-text {
+            font-size: 13px;
+        }
+        .social-icon li {
+            margin-bottom: 25px;
+        }
+        .service-list-box {
+            display: block;
+        }
+        .service-list li {
+            display: block;
+        }
+        .about-image::before {
+            top: -22%;
+            height: 176%;
+        }
+    }
+    /* Madium Device 768px -992px */
+    
+    @media (min-width:768px) and (max-width:991px) {
+        .header-top-left {
+            display: none;
+        }
+        .home-category-contact {
+            display: none;
+        }
+        .home-content h1 {
+            font-size: 60px;
+            line-height: 60px;
+        }
+        .home-content p {
+            font-size: 14px;
+        }
+        .home-content .btn {
+            font-size: 12px;
+        }
+        .home-icon {
+            height: 40px;
+            width: 40px;
+            font-size: 20px;
+            line-height: 40px;
+        }
+        .content-info {
+            font-size: 12px;
+        }
+        .content-info h5 {
+            font-size: 15px;
+            padding: 12px 0 1px;
+        }
+        .about-us .section-padding {
+            padding: 50px 0;
+        }
+        .about-content {
+            padding-left: 15px;
+            margin-top: 50px;
+        }
+        .about-image::before {
+            top: -7%;
+            height: 110%;
+            width: 160%;
+        }
+        .image-link {
+            width: 298px;
+            padding: 18px 0;
+        }
+        .features-list ul {
+            display: block;
+            padding-bottom: 0;
+        }
+        .second-column {
+            float: none;
+            margin-bottom: 30px;
+        }
+        .service-header p {
+            padding: 10px;
+        }
+        .card-body p {
+            font-size: 13px;
+        }
+        .team .col-md-4:nth-child(4) {
+            display: none;
+        }
+        .left-arrow {
+            left: 38%;
+        }
+        .right-arrow {
+            right: 38%;
+        }
+        .apt-content .form-group {
+            width: 100%;
+        }
+        .health-image {
+            padding-top: 50px;
+        }
+        .more-article {
+            margin: 40px 0;
+            float: none;
+        }
+        .recent-articles-single-box-image {
+            margin-right: 0px;
+        }
+        .contact-address {
+            font-size: 17px;
+        }
+        .contact-details .col-md-6:nth-child(3)>.contact-details-content-box {
+            padding-top: 0;
+        }
+        .footer-single-box {
+            padding-bottom: 40px;
+        }
+        .service-list-box {
+            display: block;
+        }
+        .service-list li {
+            display: block;
+        }
+        .news-content h5 a {
+            padding-right: 20px;
+        }
+        .newsletter {
+            padding: 0px;
+        }
+        .section-padding {
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+    }
+    /* Extra Small Device below 767px*/
+    
+    @media (max-width:767px) {
+        body {
+            font-size: 12px;
+        }
+        .section-padding {
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+        .header-top {
+            display: none;
+        }
+        .main-menu {
+            padding: 20px 0;
+        }
+        .home-category-contact {
+            display: none;
+        }
+        .home-category-content h5 {
+            font-size: 15px;
+        }
+        .home-content-items {
+            padding: 30px 0;
+        }
+        .home-logo img {
+            width: 50px;
+        }
+        .home-logo span {
+            font-size: 12px;
+            vertical-align: baseline;
+            padding-left: 10px;
+        }
+        .home-content h1 {
+            font-size: 30px;
+            line-height: 40px;
+        }
+        .home-content p {
+            font-size: 12px;
+            line-height: 20px;
+        }
+        .home-content a {
+            margin-top: 10px;
+        }
+        .home-content .btn {
+            padding: 12px;
+            font-size: 12px;
+            line-height: 12px;
+        }
+        .home-right-content {
+            display: none;
+        }
+        .about-image::before {
+            left: -10%;
+            top: -11%;
+            width: 115%;
+            height: 115%;
+        }
+        .image-link {
+            width: 42%;
+            padding: 10px 0;
+        }
+        .image-link a {
+            font-size: 12px;
+        }
+        .about-content {
+            padding-left: 0px;
+            margin-top: 40px;
+        }
+        .features-list ul {
+            display: block;
+            padding-bottom: 0;
+        }
+        .second-column {
+            float: none;
+            margin-bottom: 30px;
+        }
+        .features-list ul li {
+            padding: 3px 0;
+        }
+        .service-header p {
+            padding: 0;
+        }
+        .service-details-single {
+            margin-bottom: 20px;
+        }
+        .team .col-md-4:nth-child(2) {
+            display: none;
+        }
+        .team .col-md-4:nth-child(3) {
+            display: none;
+        }
+        .team .col-md-4:nth-child(4) {
+            display: none;
+        }
+        .section-title h2 {
+            font-size: 30px;
+        }
+        .section-title h5 {
+            font-size: 13px;
+        }
+        .left-arrow,
+        .right-arrow {
+            display: none;
+        }
+        .doc-apt {
+            margin-top: 40px;
+        }
+        .apt-content {
+            padding: 30px 10px;
+        }
+        .apt-image {
+            background: url('../images/contact-us/apt.jpg') no-repeat center/cover;
+            background-color: rgba(0, 0, 0, 0);
+            width: 100%;
+            height: 320px;
+            background-color: gray;
+        }
+        .apt-content .form-group {
+            width: 100%;
+        }
+        .form-group i {
+            top: 15px;
+        }
+        .health-image {
+            margin-top: 40px;
+        }
+        .staff-count-content-box {
+            border-right: 0;
+        }
+        .more-article {
+            margin: 30px 0;
+            float: none;
+        }
+        .recent-articles-single-box-image {
+            margin-right: 0px;
+        }
+        .contact-details .col-md-6:nth-child(2)>.contact-details-content-box {
+            padding-top: 0;
+        }
+        .contact-details .col-md-6:nth-child(3)>.contact-details-content-box {
+            padding-top: 0;
+        }
+        .contact-address {
+            font-size: 16px;
+        }
+        .footer-single-box p {
+            padding-bottom: 0;
+        }
+        .footer-single-box {
+            padding-top: 30px;
+        }
+        .footer-single-box.about {
+            padding-top: 0;
+        }
+        .service-list-box {
+            display: block;
+        }
+        .service-list li {
+            display: block;
+        }
+        .section-padding-bottom {
+            padding-bottom: 50px;
+        }
+        .health-service {
+            padding-top: 40px;
+        }
+        .health-service-content {
+            margin-bottom: 20px;
+        }
+        .apt-content button {
+            padding: 10px;
+        }
+        .staff-count-content-box {
+            border-bottom: 1px solid rgb(204, 203, 203);
+        }
+    }
+    /* Small Device :550px*/
+    
+    @media only screen and (min-width:576px) and (max-width:767px) {
+        .home-right-content {
+            display: inline-flex;
+            padding: 0;
+            margin-top: -40px;
+        }
+        .home-icon {
+            height: 40px;
+            width: 40px;
+            font-size: 20px;
+            line-height: 40px;
+        }
+        .content-info {
+            font-size: 12px;
+        }
+        .content-info h5 {
+            font-size: 15px;
+            padding: 12px 0 1px;
+        }
+        .about-image::before {
+            left: -30%;
+            top: -6%;
+            width: 160%;
+            height: 110%;
+        }
+        .team .col-md-4:nth-child(3) {
+            display: inherit;
+        }
+        .left-arrow,
+        .right-arrow {
+            display: inherit;
+        }
+        .left-arrow {
+            left: 36%;
+        }
+        .right-arrow {
+            right: 36%;
+        }
+    }
